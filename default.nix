@@ -11,10 +11,10 @@ rustPlatform.buildRustPackage (finalAttrs: {
     owner = "NyxInTime";
     repo = "sizeof";
     tag = finalAttrs.version;
-    hash = "sha256-LgQXB006YeurnqiLhDjfv5PjI0murz/IoHUF2ogYCWM=";
+    hash = "sha256-NnnJ6IqNcdBJZXihlqQfESKl97HgB58uIEHLYym3A/Q=";
   };
 
-  cargoHash = "sha256-rWvxzRmRr3BJDYOA+ZhlThpTtnA/Ip5X/EYnvrr3iLg=";
+  cargoHash = "sha256-VrI3hzEGVm03umCQmxq51w3q3wpld3v5k5K2kjH5cYE=";
 
   meta = {
     description = "CLI tool to see file size";
