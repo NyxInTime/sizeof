@@ -105,6 +105,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "745f8a64d62b40a725042e502af674abe0fb85726224780f1b2ff70552a4914c"
 
 [[package]]
+name = "dir_walker"
+version = "0.1.9"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e1cb3209e3f980b7997c37b1e503a1093a87b17a27746c786983e5acdf3143a0"
+
+[[package]]
 name = "heck"
 version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -161,6 +167,7 @@ version = "0.1.0"
 dependencies = [
  "clap",
  "colored_text",
+ "dir_walker",
  "humansize",
 ]
 

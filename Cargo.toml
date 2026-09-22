@@ -6,4 +6,5 @@ edition = "2024"
 [dependencies]
 clap = { version = "4.6.7", features = ["derive"] }
 colored_text = "0.5.1"
+dir_walker = "0.1.9"
 humansize = "2.1.3"
